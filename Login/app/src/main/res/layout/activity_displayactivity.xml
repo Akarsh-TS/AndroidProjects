@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akarshts.login.Displayactivity"
+    android:orientation="vertical"
+    android:background="#E1F7E7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="30dp"
+       android:textColor="#02BEC4"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/d"
+        android:layout_margin="10dp"
+    />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:  DHANEESH R V"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="5dp"
+            android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USN : 1MS15ML027"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="5dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch: Medical Electronics"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="5dp"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:textAllCaps="true"
+        android:textColor="#FF594F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobbies:"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.  PLaying BasketBall  "
+            android:textColor="#E80C7A"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.   Browsing Internet    "
+            android:textColor="#E80C7A"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="17dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.  Travelling  "
+            android:textColor="#E80C7A"
+            android:layout_weight="1"
+            android:textSize="17dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.   Reading Novels    "
+            android:textColor="#E80C7A"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="17dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:text="MARKS:"
+        android:textSize="20dp"
+        android:textColor="#FF594F"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.  CLASS 10:  90%"
+        android:textColor="#E80C7A"
+        />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.  CLASS 12:  95%"
+            android:textColor="#E80C7A"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="ENGINEERING:"
+        android:textSize="17dp"
+        android:textColor="#FF594F"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="16dp"
+        android:layout_weight="1"
+
+        android:text="SEM 1: 9.0 "
+        android:textColor="#E80C7A"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+
+            android:text=" SEM 2: 9.8 "
+            android:textColor="#E80C7A"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:text="SEM 3: 8.6 "
+            android:textColor="#E80C7A"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:text=" SEM 4: 8.9  "
+            android:textColor="#E80C7A"/>
+    </LinearLayout>
+</LinearLayout>
+
+

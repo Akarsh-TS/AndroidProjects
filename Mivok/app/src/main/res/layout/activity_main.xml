@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.akarshts.mivok.MainActivity">
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="Numbers"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:text="colors"
+
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+
+        android:text="phrases"
+
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:gravity="center_horizontal"
+        android:text="family"
+
+        android:textSize="40sp" />
+
+</LinearLayout>
